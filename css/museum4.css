@@ -234,7 +234,6 @@ header {
 
 /*mainImage 메인 이미지*/
 #mainImage {
-	background:red;
 	height: 680px;
 	min-width:960px; 
 	overflow:hidden;
