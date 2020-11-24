@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'NotoSerifKR-Bold-Alphabetic';
+  src: url('NotoSerifKR-Bold-Alphabetic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Light-Alphabetic';
+  src: url('NotoSansKR-Light-Alphabetic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumGothic';
+  src: url('NanumGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Bold-Alphabetic';
+  src: url('NotoSansKR-Bold-Alphabetic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumMyeongjoExtraBold';
+  src: url('NanumMyeongjoExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumMyeongjoBold';
+  src: url('NanumMyeongjoBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('NanumMyeongjo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumGothicExtraBold';
+  src: url('NanumGothicExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumGothicBold';
+  src: url('NanumGothicBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

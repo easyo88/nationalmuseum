@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>기획 전시:국립중앙박물관</title>
+	<link rel="stylesheet" href="../css/sub_page2.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<script src="../js/jquery-3.4.0.min.js"></script>
+	<script src="../js/jquery-ui.min.js"></script>
+	<script src="../js/museum3.js"></script>
+    <script src="../js/ui_library_common.js"></script>
+</head>
+<body>
+	<div id="wrap">
+            <header>
+	            <div id="topHeader">
+	                <div class="topNav">
+	                        <a href="http://www.museum.go.kr/site/child/home">어린이박물관</a>
+	                        <a href="http://www.museum.go.kr/tour/">박물관탐방</a>
+	                        <a href="https://www.museum.go.kr/curator/main/index.do">학예사 자격증</a>
+	                        <a href="http://www.emuseum.go.kr/main">e뮤지엄</a>
+	                        <a href="http://musedu.museum.go.kr/main/index.php">이러닝</a>
+	                        <a href="http://sbook.allabout.co.kr/magazine/museum/sm-3/pt-main">박물관신문</a>
+	                        <a href="http://www.museumshop.or.kr/kor/main.do">문화상품점</a>
+	                        <a href="#" class="listbtn">소속박물관 바로가기</a>
+	                        <ul class="list">
+	                            <li><a href="http://gyeongju.museum.go.kr/" target="_blank" title="새창으로이동">국립경주박물관</a></li>
+	                            <li><a href="https://gwangju.museum.go.kr/index.jsp" target="_blank" title="새창으로이동">국립광주박물관</a></li>
+	                            <li><a href="http://jeonju.museum.go.kr/" target="_blank" title="새창으로이동">국립전주박물관</a></li>
+	                        </ul>
+	                </div>
+	            </div>
+	            <div id="mainHeader">
+	                <h1><a href="../index.html"><img src="../img/logo_new.png" alt=""></a></h1>
+	                <div class="util">
+	                    <a href="#">로그인</a>
+	                    <a href="#">회원가입</a>
+	                    <a href="#">SNS</a>
+	                </div>
+	                <form>
+	                    <input type="search">
+	                    <a href="#"><i class="fas fa-search"></i></a> <!--placeholder 뭐입력할지 힌트주는 것-->
+	                </form>
+	                <div class="lang">
+	                    <div class="langbtn">
+	                        <a href="#">Language<i class="fas fa-sort-down"></i></a>
+	                    </div>
+	                        <ul class="langlist">
+	                            <li><a href="#">English</a></li>
+	                            <li><a href="#">中文</a></li>
+	                            <li><a href="#">日本語</a></li>
+	                        </ul>
+	                </div>
+	                <nav class="gnb">
+	                    <ul class="bottomNav">
+	                        <li><a href="exhibition_info.html">관람 정보</a></li>
+	                        <li><a href="exhibition_about.html">전시</a></li>
+	                        <li>
+	                            <a href="#">교육&#8226;행사</a>
+	                        </li>
+	                        <li><a href="#">소장품</a></li>
+	                        <li><a href="#">학술&#8226;출판</a></li>
+	                        <li><a href="#">소식&#8226;참여</a></li>
+	                        <li><a href="#">박물관 소개</a></li>
+	                    </ul>
+	            </nav>
+	            </div>
+	        </header>
+	        <!--//header-->
+	        <main id="main">
+	            <aside class="leftgnb">
+	                <h1>전시</h1>
+	                <ul class="infoList">
+	                    <li><a href="#">상설전시</a></li>
+	                    <li><a href="#">특별 전시</a></li>
+	                    <li><a href="#" class="now">우리문화재 국외 전시</a></li>
+	                    <li><a href="#">소속 국립박물관 전시</a></li>
+	                    <li><a href="#">전시도록</a></li>
+	                    <li><a href="#">외국박물관 소장 한국문화재</a></li>
+	                </ul>
+	            </aside>
+            <section class="contents">
+	                <div class="topUtil">
+	                    <h2>기획 전시</h2>
+	                    <div class="location">
+	                        <a href="#">Home</a>
+	                        <a href="#"><span><i class="fas fa-angle-left"></i></span>전시</a>
+	                        <a href="#"><span><i class="fas fa-angle-left"></i></span>우리문화재 국외 전시</a>
+	                        <a href="#"><span><i class="fas fa-angle-left"></i></span>기획 전시</a>
+	                    </div>				
+	                    <div class="btnShare">
+	                        <a href="#"><i class="fas fa-qrcode"></i> QR코드</a>
+	                        <a href="#"><i class="far fa-folder-open"></i> 스크랩</a>
+	                        <a href="#"><i class="fas fa-print"></i> 인쇄</a>
+	                        <a href="#"><i class="fas fa-share-alt"></i> 공유</a>
+	                    </div>
+	                </div>
+	                    <div class="depthbtn">
+	                        <a href="#">기획전시</a>
+	                        <a href="#">협력전시</a>
+	                    </div>
+	                    <div class="exhibition_list">
+	                        <div class="exhibition_list1">
+	                            <div class="image">
+	                                <img src="../img/plan_1.jpg" alt="한국의 역사와 문화">
+	                            </div>
+	                            <div class="info">
+	                                <p>[기획전시]</p>
+	                                <h4>한국의 역사와 문화</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>사우디아라비아 리야드 국립박물관</p></li>
+	                                    <li><strong>전시기간</strong><p>2018-12-18 ~ 2019-03-07</p></li>
+	                                    <li><strong>전시품</strong><p>서봉총 금관(보물 제399호) 등 260건</p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="https://www.museum.go.kr/site/main/archive/post/article_14723">https://www.museum.go.kr/site/main/archive/post/article_14723</a></p>
+	                                    </li>
+	                                </ul>
+	                            </div>
+	                        </div>                       
+	                       <div class="exhibition_list1">  
+	                            <div class="image">
+	                                <img src="../img/plan02.jpg" alt="한국의 역사와 문화">
+	                            </div>
+	                            <div class="info">
+	                            <p>[기획전시]</p>
+	                                <h4>조선왕조의 예술과 문화</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>싱가포르 아시아문명박물관</p></li>
+	                                    <li><strong>전시기간</strong><p>2017-04-22 ~ 2017-07-23</p></li>
+	                                    <li><strong>전시품</strong><p>서직수 초상(보물 1487호) 등 120건 248점</p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="http://muzine.museum.go.kr/2017/70th/museum.jsp">http://muzine.museum.go.kr/2017/70th/museum.jsp</a></p>
+	                                    </li>
+	                                </ul>
+	                            </div>           
+	                        </div>            
+	                        <div class="exhibition_list1">
+	                                <div class="image">
+	                                    <img src="../img/plan03.jpg" alt="한국의 역사와 문화">
+	                                </div>
+	                                <div class="info">
+	                                <p>[기획전시]</p>
+	                                <h4>동방화예: 15~19세기 중한일 회화</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>중국 국가박물관 S14 전시장</p></li>
+	                                    <li><strong>전시기간</strong><p>2016-11-05 ~ 2016-12-18</p></li>
+	                                    <li><strong>전시품</strong><p>묵죽도(동원2607) 등 14건 33점</p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="http://muzine.museum.go.kr/2016/67th/museum.jsp">http://muzine.museum.go.kr/2016/67th/museum.jsp</a></p>
+	                                    </li>
+	                                </ul>
+	                            </div>               
+	                        </div>        
+	                         <div class="exhibition_list1">
+	                            <div class="image">
+	                                <img src="../img/plan04.jpg" alt="한국의 역사와 문화">
+	                            </div>
+	                            <div class="info">
+	                                <p>[기획전시]</p>
+	                                <h4>미소의 부처 -두 반가사유상-</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>도쿄국립박물관</p></li>
+	                                    <li><strong>전시기간</strong><p>2016-06-21 ~ 2016-07-10</p></li>
+	                                    <li><strong>전시품</strong><p>국보78호 &lt;반가사유상&gt;> 등 2점</p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="http://muzine.museum.go.kr/2016/65th/museum.jsp">http://muzine.museum.go.kr/2016/65th/museum.jsp</a></p>
+	                                    </li>
+	                                </ul>
+	                            </div>   
+	                        </div>                     
+	                        <div class="exhibition_list1">
+	                            <div class="image">
+	                                <img src="../img/paln05.jpg" alt="한국의 역사와 문화">
+	                            </div>
+	                            <div class="info">
+	                                    <p>[기획전시]</p>
+	                                    <h4>흙, 불, 혼 - 한국도자명품전</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>프랑스 그랑팔레, 러시아 에르미타주박물관</p></li>
+	                                    <li><strong>전시기간</strong><p>2016-04-27 ~ 2016-11-06</p></li>
+	                                    <li><strong>전시품</strong><p>청자구룡형주자 등 216건 344점</p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="http://muzine.museum.go.kr/2016/64th/museum.jsp">http://muzine.museum.go.kr/2016/64th/museum.jsp</a></p>
+	                                    </li>                                <li>
+	                                        <strong>전시자료</strong><p><a href="#" class="watch">동영상보기</a></p>
+	                                    </li>
+	                                </ul>
+	                            </div>      
+	                        </div>                                    
+	                        <div class="exhibition_list1">
+	                            <div class="image">
+	                                <img src="../img/plan06.jpg" alt="한국의 역사와 문화">
+	                            </div>
+	                            <div class="info">
+	                                <p>[기획전시]</p>
+	                                <h4>동아시아의 꽃: 도자명품전</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>도쿄국립박물관 본관 특별5실</p></li>
+	                                    <li><strong>전시기간</strong><p>2014-09-20 ~ 2014-11-24</p></li>
+	                                    <li><strong>전시품</strong><p>청자양각포류수금문정병(덕수2960) 등 15건</p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="http://www.tnm.jp/modules/r_free_page/index.php?id=1678">http://www.tnm.jp/modules/r_free_page/index.php?id=1678</a></p>
+	                                    </li>                               
+	                                </ul>
+	                            </div>
+	                        </div>
+	                        <div class="exhibition_list1">
+	                                <div class="image">
+	                                    <img src="../img/plan07.jpg" alt="한국의 역사와 문화">
+	                                </div>
+	                            <div class="info">    
+	                                <p>[기획전시]</p>
+	                                <h4>조선미술대전</h4>
+	                                <ul>
+	                                    <li>
+	                                        <strong>전시장소</strong><p>필라델피아미술관, 로스엔젤레스카운티미술관, 휴스턴미술관</p>
+	                                    </li>
+	                                    <li><strong>전시기간</strong><p>2014-03-02 ~ 2015-01-11</p></li>
+	                                    <li><strong>전시품</strong><p>청화백자용문호 등 175건 323점</p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="http://www.philamuseum.org/exhibitions/795.html#vhttp://www.lacma.org/art/exhibition/last-dynasty">http://www.philamuseum.org/exhibitions/795.html#vhttp://www.lacma.org/art/exhibition/last-dynasty</a></p>
+	                                    </li>                                
+	                                    <li>
+	                                        <strong>전시자료</strong><p><a href="#" class="watch">동영상보기</a></p>
+	                                    </li>
+	                                </ul>
+	                            </div>         
+	                        </div>                
+	                        <div class="exhibition_list1">
+	                                <div class="image">
+	                                    <img src="../img/plan08.jpg" alt="한국의 역사와 문화">
+	                                </div>
+	                            <div class="info">
+	                                <p>[기획전시]</p>
+	                                <h4>황금의 나라, 신라</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>메트로폴리탄박물관 1층 기획전시실</p></li>
+	                                    <li><strong>전시기간</strong><p>2013-10-29 ~ 2014-02-23</p></li>
+	                                    <li><strong>전시품</strong><p>국보83호 &lt;반가사유상&gt;> 등 93건 132점</p></li>       
+	                                    <li><strong>전시도록</strong><p><a href="#">[바로가기]</a></p></li>
+	                                    <li>
+	                                        <strong>관련누리집</strong><p><a href="http://www.philamuseum.org/exhibitions/795.html#vhttp://www.lacma.org/art/exhibition/last-dynasty">http://www.philamuseum.org/exhibitions/795.html#vhttp://www.lacma.org/art/exhibition/last-dynasty</a></p>
+	                                    </li>                                
+	                                    <li>
+	                                        <strong>전시자료</strong><p><a href="#" class="watch">동영상보기</a></p>
+	                                    </li>
+	                                </ul>
+	                            </div> 
+	                        </div>                         
+	                        <div class="exhibition_list1">
+	                                <div class="image">
+	                                    <img src="../img/plan09.jpg" alt="한국의 역사와 문화">
+	                                </div>
+	                            <div class="info">
+	                                <p>[기획전시]</p>
+	                                <h4>조선 왕실, 잔치를 열다</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>샌프란시스코 아시아미술관 특별전시실</p></li>
+	                                    <li><strong>전시기간</strong><p>2013-10-25 ~ 2014-01-12</p></li>
+	                                    <li><strong>전시품</strong><p>&lt;화성능행도&gt; 등 89건 116점</p></li>
+	                                    <li><strong>전시도록</strong><p><a href="#">[바로가기]</a></p></li> 
+	                                </ul>
+	                            </div> 
+	                        </div>                         
+	                        <div class="exhibition_list1">
+	                                <div class="image">
+	                                    <img src="../img/plan10.jpg" alt="한국의 역사와 문화">
+	                                </div>
+	                            <div class="info">
+	                                <p>[기획전시]</p>
+	                                <h4>아름다운 한국 문화재</h4>
+	                                <ul>
+	                                    <li><strong>전시장소</strong><p>터키 이스탄불 톱카프궁박물관</p></li>
+	                                    <li><strong>전시기간</strong><p>2013-06-19 ~ 2013-09-29</p></li>
+	                                    <li><strong>전시품</strong><p>126건 153점</p></li>
+	                                    <li><strong>전시도록</strong><p><a href="#">[바로가기]</a></p></li>
+	                                </ul>
+	                            </div>   
+	                        </div>  
+	                    </div>
+                </section>
+	            <div class="quickbtn">
+	                <ul class="quicklist">
+	                    <li><a href="">일정안내</a></li>
+	                    <li><a href="">예약하기</a></li>
+	                    <li><a href="">관람시간</a></li>
+	                    <li><a href="">오시는길</a></li>
+	                </ul>
+	                <div class="fntctrl">
+	                   <p>화면 확대/축소</p>
+	                    <div class="zoombtn">
+	                        <button class="zoomOut" type="button"></button>
+	                        <button class="zoomIn" type="button"></button>
+	                    </div>
+	                </div>
+	            </div>
+	        </main>
+	        <footer>
+	            <a href="#" id="scrollTop"><i class="fas fa-arrow-circle-up"></i><br>TOP</a> 
+	            <div class="innerfoot">
+	                    <div class="rollMenu">
+	                    <div class="rollbox">
+	                        <ul class="banner">
+	                            <li>
+	                                <a href="#"><img src="../img/16957.png" alt="용 극장 배너"></a>
+	                            </li>
+	                            <li>
+	                                <a href="#"><img src="../img/16958.png" alt="국립박물관 문화상품 배너"></a>
+	                            </li>
+	                            <li>
+	                                <a href="#"><img src="../img/16963.png" alt="국가문화유산 포털 배너"></a>
+	                            </li>
+	                            <li>
+	                                <a href="#"><img src="../img/16961.png" alt="네이버 문화협회 배너"></a>
+	                            </li>
+	                            <li>
+	                                <a href="#"><img src="../img/298237.png" alt="국립현대미술관 배너"></a>
+	                            </li>				            
+	                                <li>
+	                                <a href="#"><img src="../img/foot_banner03.png" alt="어린이 박물관 배너"></a>
+	                            </li>				            
+	                                <li>
+	                                <a href="#"><img src="../img/foot_banner11.png" alt="아시아 마스터피스 배너"></a>
+	                            </li>                            
+	                                <li>
+	                                <a href="#"><img src="../img/foot_banner12.png" alt="ASEMUS 배너"></a>
+	                            </li>                            
+	                                <li>
+	                                <a href="#"><img src="../img/foot_banner16.png" alt="대한민국역사박물관 배너"></a>
+	                            </li>
+	                        </ul>
+	                    </div>
+	                    <p class="control">
+	                            <a href="#" class=prev><img src="../img/bg_banner-prev.png" alt="이전"></a>
+	                        <a href="#" class=next><img src="../img/bg_banner-next.png" alt="다음"></a>
+	                    </p>
+	                </div>
+	                <div class="btngo">
+	                    <a href="">문화유산표준관리시스템</a>
+	                    <a href="#">청년멘토</a>		
+	                        <a href="#" class="dwn">가이드북 다운로드</a>
+	                    <a href="#" class="dwn">관련사이트 바로가기</a>
+	                </div>
+	                <ul class="snsfoot">
+	                    <li>
+	                        <a href="https://twitter.com/The_NMK"><img src="../img/twitter.png" alt="트위터"></a>
+	                    </li>
+	                    <li>
+	                        <a href="https://www.facebook.com/NationalMuseumofKorea/"><img src="../img/facebook.png" alt="페이스북"></a>
+	                    </li>
+	                    <li>
+	                        <a href="https://www.instagram.com/nationalmuseumofkorea/"><img src="../img/instagram.png" alt="인스타그램"></a>
+	                    </li>
+	                    <li>
+	                        <a href="http://www.youtube.com/koreanmuseum"><img src="../img/youtube.png" alt="유튜브"></a>
+	                    </li>
+	                </ul>
+	                <div class="copyright">
+	                    <div class="copybtn">
+	                        <a href="#" class="on">개인정보처리방침</a>
+	                        <a href="#">전자민원</a>
+	                        <a href="#">공공데이터개방</a>
+	                        <a href="#">저작권 정책</a>
+	                        <a href="#">클린신고 센터</a>
+	                    </div>				
+	                    <div class="copytxt">
+	                        <address>04383 서울시 용산구 서빙고로 137(용산동6가 168-6)</address>
+	                        <p class="tel">대표전화 02.2077.9000</p>
+	                        <p>&copy;National Museum of Korea.</p>
+	                    </div>
+	                    <a href="#" class="open"><img src="../img/logo_open.png" alt="open로고"></a>
+	                </div>
+	            </div>
+	        </footer>
+	    </div>
+<script>
+
+var scrollTop = $(document).scrollTop();
+    
+$(window).on('scroll', function() {
+    scrollTop = $(document).scrollTop();
+    var maxScroll = $('.exhibition_list1:eq(9)').offset().top;
+    console.log(maxScroll);
+    
+    if ((scrollTop + 68) > maxScroll){
+        scrollTop = maxScroll - 68;
+    }
+    $('.quickbtn').css({'top': (scrollTop + 68) + 'px'});
+});
+    
+
+</script>		
+		
+</body>
+</html>

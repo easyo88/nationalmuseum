@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>전시 관람:국립중앙박물관</title>
+    <link rel="stylesheet" href="../css/sub_page1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script src="../js/jquery-3.4.0.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/museum3.js"></script>
+    <script src="../js/ui_library_common.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="topHeader">
+                <div class="topNav">
+                    <a href="http://www.museum.go.kr/site/child/home">어린이박물관</a>
+                    <a href="http://www.museum.go.kr/tour/">박물관탐방</a>
+                    <a href="https://www.museum.go.kr/curator/main/index.do">학예사 자격증</a>
+                    <a href="http://www.emuseum.go.kr/main">e뮤지엄</a>
+                    <a href="http://musedu.museum.go.kr/main/index.php">이러닝</a>
+                    <a href="http://sbook.allabout.co.kr/magazine/museum/sm-3/pt-main">박물관신문</a>
+                    <a href="http://www.museumshop.or.kr/kor/main.do">문화상품점</a>
+                    <a href="#" class="listbtn">소속박물관 바로가기</a>
+                    <ul class="list">
+                        <li><a href="http://gyeongju.museum.go.kr/" target="_blank" title="새창으로이동">국립경주박물관</a></li>
+                        <li><a href="https://gwangju.museum.go.kr/index.jsp" target="_blank" title="새창으로이동">국립광주박물관</a></li>
+                        <li><a href="http://jeonju.museum.go.kr/" target="_blank" title="새창으로이동">국립전주박물관</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mainHeader">
+                <h1><a href="../index.html"><img src="../img/logo_new.png" alt=""></a></h1>
+                <div class="util">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">SNS</a>
+                </div>
+                <form>
+                    <input type="search">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <!--placeholder 뭐입력할지 힌트주는 것-->
+                </form>
+                <div class="lang">
+                    <div class="langbtn">
+                        <a href="#">Language<i class="fas fa-sort-down"></i></a>
+                    </div>
+                    <ul class="langlist">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">中文</a></li>
+                        <li><a href="#">日本語</a></li>
+                    </ul>
+                </div>
+                <nav class="gnb">
+                    <ul class="bottomNav">
+                        <li><a href="exhibition_info.html">관람 정보</a></li>
+                        <li><a href="exhibition_about.html">전시</a></li>
+                        <li>
+                            <a href="#">교육&#8226;행사</a>
+                        </li>
+                        <li><a href="#">소장품</a></li>
+                        <li><a href="#">학술&#8226;출판</a></li>
+                        <li><a href="#">소식&#8226;참여</a></li>
+                        <li><a href="#">박물관 소개</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--//header-->
+        <main id="main">
+            <aside class="leftgnb">
+                <h1>관람 정보</h1>
+                <ul class="infoList">
+                    <li><a href="#" class="now">전시관람</a></li>
+                    <li><a href="#">전시해설</a></li>
+                    <li><a href="#">예약하기</a></li>
+                    <li><a href="#">관람&#8226;편의시설</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                </ul>
+            </aside>
+            <section class="contents">
+                <div class="topUtil">
+                    <h2>전시 관람</h2>
+                    <div class="location">
+                        <a href="#">Home</a>
+                        <a href="#"><span><i class="fas fa-angle-left"></i></span>관람 정보</a>
+                        <a href="#"><span><i class="fas fa-angle-left"></i></span>전시 관람</a>
+                    </div>
+                    <div class="btnShare">
+                        <a href="#"><i class="fas fa-qrcode"></i> QR코드</a>
+                        <a href="#"><i class="far fa-folder-open"></i> 스크랩</a>
+                        <a href="#"><i class="fas fa-print"></i> 인쇄</a>
+                        <a href="#"><i class="fas fa-share-alt"></i> 공유</a>
+                    </div>
+                </div>
+                <article class="timeInfo">
+                    <h3>관람시간 및 관람료</h3>
+                    <table class="tb1_info">
+                        <colgroup>
+                            <col style="width:22%">
+                        </colgroup>
+                        <tr>
+                            <th>관람 시간</th>
+                            <td>
+                                <ul>
+                                    <li>월, 화, 목, 금요일 : 10:00 ~ 18:00</li>
+                                    <li>수, 토요일 : 10:00 ~ 21:00</li>
+                                    <li>일요일, 공휴일 : 10:00 ~ 19:00</li>
+                                    <li>옥외 전시장(정원)은 오전 7시부터 관람하실 수 있습니다.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>휴관일 및 휴실일</th>
+                            <td>
+                                <ul>
+                                    <li>휴관일: 1월1일, 설날(2. 5), 추석(9. 13)</li>
+                                    <li>상설전시실 정기휴실일 : 매년 4, 11월 첫째 월요일 <br>
+                                        - 2019년 휴실일 : 4.1.(월) / 11.4.(월) <br>
+                                        ※기획전시실(특별전시 종료시 휴실), 어린이박물관, 야외전시장은 정상 개관</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>야간개장</th>
+                            <td>
+                                <ul>
+                                    <li>매주 수, 토요일 : 18:00 ~ 21:00 (3시간 연장)</li>
+                                    <li>
+                                        단, 어린이박물관은 매월 마지막 주 수요일만 야간개장 <br>
+                                        (18:00 이후는 당일 선착순 입장, 18:00 / 19:30 300명씩 2회차)
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">관람료</th>
+                            <td>
+                                <ul>
+                                    <li>무료 : 상설전시관, 어린이박물관, 무료 특별전시</li>
+                                    <li>상설전시관은 관람권 없이 바로 입장합니다.</li>
+                                    <li>어린이박물관 관람권 받는 곳 : 어린이박물관 앞 안내데스크 <br>
+                                        (어린이박물관 예약 관람객의 경우 예약증으로 입장 가능합니다.)
+                                    </li>
+                                    <li>관람권 발급시간 : 관람 종료 30분 전까지</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>유료 : 유료 기획전시</li>
+                                    <li>관람권 구입하는 곳 : 기획전시실 앞 매표소</li>
+                                    <li>관람권 판매시간 : 관람 종료 30분 전까지</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </article>
+                <div class="groupInfo">
+                    <h3>단체 관람</h3>
+                    <ul class="groupList">
+                        <li><span>학생단체관람</span>초.중.고 학생 단체(30명 이상)는 사전예약제로 운영하고 있습니다.</li>
+                        <li><span>자체해설단체관람</span> 박물관 공식해설이 아닌 직접 해설을 하는 단체는 사전예약제로 운영하고 있습니다.</li>
+                        <li>단체관람 주의사항을 꼭 지켜주시기 바랍니다.</li>
+                        <li>학생단체실 운영시간 : 10:00~18:00 / 점심시간 : 12:00~13:00</li>
+                    </ul>
+                    <a href="#">학생단체관람 예약 <img src="../img/btn_file.png" alt="오른쪽 화살표"></a>
+                    <a href="#">자체해설관람 예약 <img src="../img/btn_file.png" alt="오른쪽 화살표"></a>
+                </div>
+                <div class="caution">
+                    <h3>박물관 관람 시 유의사항</h3>
+                    <p>우리의 귀중한 문화유산을 보호하고 관람질서를 유지하기 위하여 다음 사항을 준수하여 주시기 바랍니다.</p>
+                    <ul class="cautionList">
+                        <li>박물관의 모든 공간은 금연구역입니다.</li>
+                        <li>음식물 반입과 안내견 이외의 애완동물의 출입은 금지되어 있습니다.</li>
+                        <li>전시실 입장 전에, 휴대전화는 전원을 꺼주시거나 진동으로 전환하여 주십시오.</li>
+                        <li>전시관에서는 정숙해 주시고 뛰어다니는 행위는 삼가시길 바랍니다.</li>
+                        <li>전시관에서는 바퀴달린 신발을 신은 고객은 입장이 불가합니다.</li>
+                        <li>전시물에 손을 대거나 손상을 입힐 수 있는 행위는 절대 삼가 주십시오.</li>
+                        <li>플래시/삼각대 등을 이용한 촬영과 상업적 용도를 위한 촬영은 금지되어 있습니다.</li>
+                        <li>야외 관람로에서는 자전거, 킥보드, 인라인스케이트, 스케이트보드 등을 이용할 수 없습니다.</li>
+                        <li>슬리퍼 등 정숙한 관람을 해치는 복장은 자제하여 주시기 바랍니다.</li>
+                    </ul>
+                </div>
+                <div class="telInfo">
+                    <p>담당부서 </p>
+                    <p>고객지원팀 안내데스크(02-2077-9045~7,9085)</p>
+                </div>
+            </section>
+            <div class="quickbtn">
+                <ul class="quicklist">
+                    <li><a href="">일정안내</a></li>
+                    <li><a href="">예약하기</a></li>
+                    <li><a href="">관람시간</a></li>
+                    <li><a href="">오시는길</a></li>
+                </ul>
+                <div class="fntctrl">
+                    <p>화면 확대/축소</p>
+                    <div class="zoombtn">
+                        <button class="zoomOut" type="button"></button>
+                        <button class="zoomIn" type="button"></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="#" id="scrollTop"><i class="fas fa-arrow-circle-up"></i><br>TOP</a>
+            <div class="innerfoot">
+                <div class="rollMenu">
+                    <div class="rollbox">
+                        <ul class="banner">
+                            <li>
+                                <a href="#"><img src="../img/16957.png" alt="용 극장 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/16958.png" alt="국립박물관 문화상품 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/16963.png" alt="국가문화유산 포털 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/16961.png" alt="네이버 문화협회 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/298237.png" alt="국립현대미술관 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/foot_banner03.png" alt="어린이 박물관 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/foot_banner11.png" alt="아시아 마스터피스 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/foot_banner12.png" alt="ASEMUS 배너"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/foot_banner16.png" alt="대한민국역사박물관 배너"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="control">
+                        <a href="#" class=prev><img src="../img/bg_banner-prev.png" alt="이전"></a>
+                        <a href="#" class=next><img src="../img/bg_banner-next.png" alt="다음"></a>
+                    </p>
+                </div>
+                <div class="btngo">
+                    <a href="#">문화유산표준관리시스템</a>
+                    <a href="#">청년멘토</a>
+                    <a href="#" class="dwn">가이드북 다운로드</a>
+                    <a href="#" class="dwn">관련사이트 바로가기</a>
+                </div>
+                <ul class="snsfoot">
+                    <li>
+                        <a href="https://twitter.com/The_NMK"><img src="../img/twitter.png" alt="트위터"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/NationalMuseumofKorea/"><img src="../img/facebook.png" alt="페이스북"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/nationalmuseumofkorea/"><img src="../img/instagram.png" alt="인스타그램"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com/koreanmuseum"><img src="../img/youtube.png" alt="유튜브"></a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    <div class="copybtn">
+                        <a href="#" class="on">개인정보처리방침</a>
+                        <a href="#">전자민원</a>
+                        <a href="#">공공데이터개방</a>
+                        <a href="#">저작권 정책</a>
+                        <a href="#">클린신고 센터</a>
+                    </div>
+                    <div class="copytxt">
+                        <address>04383 서울시 용산구 서빙고로 137(용산동6가 168-6)</address>
+                        <p class="tel">대표전화 02.2077.9000</p>
+                        <p>&copy;National Museum of Korea.</p>
+                    </div>
+                    <a href="#" class="open"><img src="../img/logo_open.png" alt="open로고"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    var scrollTop = $(document).scrollTop();
+
+    $(window).on('scroll', function() {
+        scrollTop = $(document).scrollTop();
+        var maxScroll = $('.groupList').offset().top;
+        console.log(maxScroll);
+
+        if ((scrollTop + 65) > maxScroll) {
+            scrollTop = maxScroll - 65;
+        }
+        $('.quickbtn').css({
+            'top': (scrollTop + 65) + 'px'
+        });
+    });
+
+</script>
+
+</html>

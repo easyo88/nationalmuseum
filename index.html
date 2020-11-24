@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Home:국립중앙박물관</title>
+	<link rel="stylesheet" href="css/museum4.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/webfont.css">
+    <script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/museum3.js"></script>
+	<script src="js/ui_library_common.js"></script>
+</head>
+<body>
+    <header>
+        <div id="topHeader">
+            <div class="topNav">
+				<a href="http://www.museum.go.kr/site/child/home" target="_blank" title="새창으로이동">어린이박물관</a>
+				<a href="http://www.museum.go.kr/tour/" target="_blank" title="새창으로이동">박물관탐방</a>
+                <a href="https://www.museum.go.kr/curator/main/index.do" target="_blank" title="새창으로이동">학예사 자격증</a>
+				<a href="http://www.emuseum.go.kr/main" target="_blank" title="새창으로이동">e뮤지엄</a>
+				<a href="http://musedu.museum.go.kr/main/index.php" target="_blank" title="새창으로이동">이러닝</a>
+				<a href="http://sbook.allabout.co.kr/magazine/museum/sm-3/pt-main" target="_blank" title="새창으로이동">박물관신문</a>
+				<a href="http://www.museumshop.or.kr/kor/main.do" target="_blank" title="새창으로이동">문화상품점</a>
+                <div class="lastbtn">
+				    <a href="#" class="listbtn">소속박물관 바로가기</a>
+				    <ul class="list">
+				        <li><a href="http://gyeongju.museum.go.kr/" target="_blank" title="새창으로이동">국립경주박물관</a></li>
+				        <li><a href="https://gwangju.museum.go.kr/index.jsp" target="_blank" title="새창으로이동">국립광주박물관</a></li>
+				        <li><a href="http://jeonju.museum.go.kr/" target="_blank" title="새창으로이동">국립전주박물관</a></li>
+				    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="mainHeader">
+            <h1><a href="./index.html" title="홈으로 바로가기"><img src="./img/logo_new.png" alt=""></a></h1>
+            <div class="util">
+				<a href="#">로그인</a>
+				<a href="#">회원가입</a>
+				<a href="#">SNS</a>
+            </div>
+            <form>
+                <label for="search" class="hide">검색어</label>
+				<input type="search">
+				<a href="#"><i class="fas fa-search"></i></a>
+            </form>
+            <div class="lang">
+				<div class="langbtn">
+					<a href="#">Language<i class="fas fa-sort-down"></i></a>
+				</div>
+				<ul class="langlist">
+					<li><a href="#">English</a></li>
+					<li><a href="#">中文</a></li>
+					<li><a href="#">日本語</a></li>
+				</ul>
+            </div>
+            <nav class="gnb">
+				<ul class="bottomNav">
+				    <li><a href="./page/exhibition_info.html">관람 정보</a></li>
+				    <li><a href="./page/exhibition_about.html">전시</a></li>
+				    <li><a href="#">교육&#8226;행사</a></li>
+				    <li><a href="#">소장품</a></li>
+				    <li><a href="#">학술&#8226;출판</a></li>
+				    <li><a href="#">소식&#8226;참여</a></li>
+				    <li><a href="#">박물관 소개</a></li>
+				</ul>
+            </nav>
+        </div>
+    </header>
+		<!--//header-->
+			<section id="mainImage">
+				<div class="slideImage">
+				    <a href="#" class="slide" id="slide-1">
+				        <img src="img/slide01.jpg" alt="가야">
+				        <div class="slideTxt">
+                            <p class="now">예정전시</p>
+                            <p class="spec">특별전시</p>
+                            <h1>가야</h1>
+                            <p class="date"><span>어디까지 알고 있니?</span><br>기획전시실 / 2019.12.03 - 2020.03.01</p>
+                        </div>
+				    </a>			 	
+                    <a href="#" class="slide" id="slide-1">
+				        <img src="img/slide9.png" alt="한국민화">
+				        <div class="slideTxt">
+                            <p class="now">현재전시</p>
+                            <p class="spec">특별전시</p>
+                            <h1>한국 민화, 호랑이를 그리다 </h1>
+                            <p class="date"><span>한국 민화 모음전 특별전시</span><br>기획전시실 / 2019.04.16 - 2019.06.02</p>
+                        </div>
+				    </a>			 	
+                    <a href="#" class="slide" id="slide-2">
+                        <img src="img/slide10.jpg" alt="베트남 소장품">
+				        <div class="slideTxt">
+				            <p class="now">현재전시</p>
+				            <p class="spec">특별전시</p>
+				            <h1>베트남 국립역사박물관 소장품展</h1>
+				            <p class="date">아시아관 인도&#8226;동남아시아실 / 2019.03.27 - 2020.11.01</p>
+				        </div>
+				    </a>			 	
+				    <a href="#" class="slide" id="slide-3">
+					    <img src="img/slide2.jpg" alt="근대서화">
+                        <div class="slideTxt">
+				            <p class="now">현재전시</p>
+				            <p class="spec">특별전시</p>
+				            <h1>근대 서화, 봄 새벽을 깨우다</h1>
+                            <p class="date">기획전시실 / 2019.04.16 - 2019.06.02</p>
+                        </div>
+				    </a>
+                    <a href="#" class="slide" id="slide-4">
+                        <img src="img/slid3.jpg" alt="창령사 터 오백나한">
+                           <div class="slideTxt">
+                            <p class="now">현재전시</p>
+                            <p class="spec">특별전시</p>
+                                <h1>창령사 터 오백나한</h1>
+                            <p class="date"><span>당신의 마음을 닮은 나한</span><br> 상설전시관 1층 특별전시실 / 2019.04.29 - 2019.06.13</p>
+				        </div>
+					</a>	 	
+				</div>
+				<div class="slidebtn">
+					<a href="#" class="prev">Prev</a>
+					<a href="#" class="next">Next</a>
+				</div>
+				<div class="slide_indicator"></div>
+				<div class="scroll">
+					<a href="#" class="scroll1"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<a href="#"	class="scrolldwn">SCROLL DOWN</a>
+				</div>
+			</section>
+			<!--//mainImage-->
+			<section id="special">
+				<h1>특별전시</h1>
+				<ul class="innerspec">
+                    
+				    <li class="specinfo" id='specinfo-1'>
+					    <img src="img/spec1.jpg" alt="근대서화">
+					    <div class="text">
+						    <span>현재전시</span>
+						    <a href="#"><h1>근대 서화, 봄 새벽을 깨우다</h1></a>
+				            <table>
+							    <tr>
+								    <th>기간</th>
+								    <td>2019-04-16 ~ 2019-06-02</td>
+							    </tr>		
+							    <tr>
+								    <th>장소</th>
+								    <td>기획전시실</td>
+							    </tr>
+				            </table>
+				            <p>2019년 국립중앙박물관 기획특별전 근대 서화, 봄 새벽을 깨우다 국립중앙박물관은 <br>
+				            2019년 첫 기획특별전으로 20세기 전환기의 한국 서화의 흐름을 조명하는 특별전 <br>
+				            &lt;근대 서화, 봄 새벽을 깨우다&gt;를 개최합니다.
+				            </p>	
+				            <a href="#" class="btnmore">특별전시 목록보기</a>		
+					    </div>
+				    </li>
+				<li class="specinfo" id='specinfo-2'>
+					<img src="img/spec2.jpg" alt="근대서화">
+					<div class="text">
+						<span class="expect">예정전시</span>
+						<a href="#"><h1>로마 이전, 에트루리아</h1></a>
+						<table>
+							<tr>
+								<th>기간</th>
+								<td>2019-07-09 ~ 2019-10-27</td>
+							</tr>		
+							<tr>
+								<th>장소</th>
+								<td>기획전시실</td>
+							</tr>
+						</table>
+						<p>지중해의 가려진 보물, 에트루리아 문명을 국내에 처음 소개하는 전시입니다. <br>
+						 그리스와 로마 문명을 이어주는 에트루리아 문명을 조명하여 <br>
+						 서양에서 문명과 문화의 흐름이 어떻게 이루어지는지 소개합니다.
+				        </p>
+				        <a href="#" class="btnmore">특별전시 목록보기</a>		
+					</div>		
+					</li>
+				<li class="specinfo" id='specinfo-3'>
+					<img src="img/spec6.png" alt="근대서화">
+					<div class="text">
+						<span>현재전시</span>
+						<a href=""><h1>꽃으로 전하는 가르침-공주 마곡사 괘불</h1></a>
+						<table>
+							<tr>
+								<th>기간</th>
+								<td>2019-04-24 ~ 2019-10-20</td>
+							</tr>		
+							<tr>
+								<th>장소</th>
+								<td>서화관 불교회화실</td>
+							</tr>
+						</table>
+						<p>국립중앙박물관 2019년 괘불전 ‘꽃으로 전하는 가르침-공주 마곡사 괘불’ <br>
+						국립중앙박물관은 2019년 부처님 오신 날을 기념하여 열네 번째 괘불전 <br>
+						 ‘꽃으로 전하는 가르침-공주 마곡사 괘불’을 개최했습니다.
+						</p>			
+						 <a href="#" class="btnmore">특별전시 목록보기</a>	
+					</div>
+				</li>
+					<li class="specinfo" id='specinfo-4'>
+						<img src="img/spec5.jpg" alt="근대서화">
+						<div class="text">
+							<span>현재전시</span>
+							<a href=""><h1>창령사 터 오백나한, 당신의 마음을 닮..</h1></a>
+							<table>
+								<tr>
+									<th>기간</th>
+									<td>2019-04-29 ~ 2019-06-13</td>
+								</tr>		
+								<tr>
+									<th>장소</th>
+									<td>상설전시관 1층 특별전시실</td>
+								</tr>
+							</table>
+							<p>강원도 영월 창령사蒼嶺寺 터 오백나한五百羅漢은 오래전에 폐사된 절터에서 <br>
+							 2001년에 발굴되었지만 관람객의 눈길을 단번에 사로잡는 존재입니다. <br>
+							 마주하는 순간 그 질박하고 친근한 표정이 우리 마음을 두드립니다.
+							</p>
+							<a href="#" class="btnmore">특별전시 목록보기</a>	
+					</div>
+					</li>
+				</ul>
+				<div class="slidebtn">
+					<a href="#" class="prev">Prev</a>
+					<a href="#" class="next">Next</a>
+				</div>
+				<div class="slide_indicator"></div>
+			</section>
+			<!--//special-->
+			<section id="info">
+				<div class="innerInfo">
+				<h1>이용안내</h1>
+					<table class="infoleft">
+						<tr>
+							<th>관람시간</th>
+							<td><span>월·화·목·금 : </span> 10:00 ~ 18:00 <br> <span>수·토 : </span> 10:00 ~ 21:00 <br>
+							<span>일·공휴일 :</span>  10:00 ~ 19:00 <br>
+							<em>※ 옥외 전시장(정원)은 오전 7시부터 관람하실 수 있습니다.</em></td>
+						</tr>
+						<tr>
+							<th>휴관일 및 휴실일</th>
+							<td>
+								<span>휴관일 : </span> 1월 1일, 설날(2.5.), 추석(9.13.) <br> <span>상설전시 휴실일 :</span>  매년 4,11월 첫째 월요일 <br> - 2019년 휴실일 : 4.1.(월) / 11.4.(월) <br>
+								<em>※ 기획전시실(특별전시 종료시 휴실), 어린이박물관, 야외전시장은 정상 개관</em>
+							</td>
+						</tr>
+						<tr>
+							<th>야간개장</th>
+							<td>
+								<span>매주 수·토 :</span>  18:00 ~ 21:00 (3시간 연장) <br>
+								<em>	
+									단, 어린이박물관은 매월 마지막 주 수요일만 야간개장 <br>
+									(18:00 이후는 당일 선착순 입장, 18:00 / 19:30 300명씩 2회차)
+								</em>
+							</td>
+						</tr>
+					</table>
+					<div class="inforight">
+						<table>
+							<tr>
+								<th>관람료</th>
+								<td><span>무료</span>  <br> 상설전시관, 어린이박물관, 무료 특별전시상설전시관은 관람권 없이 바로 입장합니다</td>
+							</tr>
+							<tr>
+								<th>1</th>
+								<td><span>유료</span> <br> 유료 기획전시 <br> 관람권 : 기획전시실 앞 매표소 (관람종료 30전까지)</td>
+							</tr>
+						</table>
+					</div>
+					<ul class="contact">
+							<li>
+								<a href="#">오늘의 일정</a>
+							</li>
+							<li>
+									<a href="#">관람 예약하기</a>
+							</li>
+							<li>
+								<a href="#">오시는 길</a>
+							</li>
+					</ul>
+						<a href="#" class="btnmore">이용안내 더보기</a>
+				</div>
+			</section>
+			<!--//info이용안내-->
+			<section class="notice">
+				<div class="mainNotice">
+					<h1>알림</h1>
+				<div class="noteBox">
+						<div class="btnNotice">
+							<a href="#">알림</a>
+							<a href="#">고시/공고</a>
+							<a href="#">채용안내</a>
+							<a href="#">보도자료</a>
+							<a href="#">&#43;</a>
+						</div>
+						<ul class="notelist">
+							<li>
+								<a href="#">
+									<span class="title">국립중앙박물관 어린이박물관 2019년 임시 휴관 알림</span><span class="date">2019.02.28</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="title">특별전 "영월 창령사 터 오백나한 - 당신의 마음을 닮은 얼굴”</span>
+									<span class="date">2019.04.27</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="title">박물관역사문화교실(5.29.) 강의 안내</span>
+									<span class="date">2019.04.25</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="title">5월 국립중앙박물관 "큐레이터와의 대화"</span>
+									<span class="date">2019.04.25</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="title">알림)'방사선을 활용한 문화재 보존'워크숍 개최</span>
+									<span class="date">2019.04.24</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="title">2019 국립중앙박물관 어린이날 가족축제&lt;신나는아이들 세상, 박물관 여행	&gt;</span><span class="date">2019.04.24</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="popup">
+					<h2>소식</h2>
+						<a href="#"><img src="img/popupimg.jpg" alt="박물관 역사문화교실"></a>
+					</div>
+				</div>
+			</section>
+			
+			<!--//notice 알림끝-->
+			<section id="education">
+			<h1>교육</h1>
+				<div class="mainEdu">
+					<ul class="eduContent" id="eduContent-1">
+						<li class="eduInfo" id='eduInfo-1'>
+							<a href="#"><span>문화유산 표준관리시스템</span> 사용자 교육안내</a>
+							<p class="date">2019-05-14~2019-05-14</p>
+							<p>소장품정보 활용(전문검색)</p>
+							<dl class="userInfo">
+								<dt>대상</dt>
+								<dd>전국 국공 사립,대학박물관 소장품 관리 담당자</dd>
+								<dt>참가비</dt>
+								<dd>무료</dd>
+							</dl>
+						</li>					
+						<li class="eduInfo" id='eduInfo-2'>
+							<a href="#"><span>[특별전 연계]</span> 나한전 아트토크</a>
+							<p class="date">2019-04-30~2019-05-21</p>
+							<p>'나한'관련 강의와 작가와의 대화, 전시 관람</p>
+							<dl class="userInfo">
+								<dt>대상</dt>
+								<dd>성인 30명</dd>
+								<dt>참가비</dt>
+								<dd>무료</dd>
+							</dl>
+						</li>					
+						<li class="eduInfo" id='eduInfo-3'>
+							<a href="#"><span>제44회</span> 국립중앙박물관 그리기 잔치</a>
+							<p class="date">2019-05-15~2019-05-15</p>
+							<p>박물관 소장품을 주체적으로 감상하고 영감을 미술 작품으로 창작해보는 행사</p>
+							<dl class="userInfo">
+								<dt>대상</dt>
+								<dd>전국 초ㆍ중ㆍ고등학생 300명 내외(외국인 학생 포함)</dd>
+								<dt>참가비</dt>
+								<dd>무료</dd>
+							</dl>
+						</li>
+					</ul>	
+					<ul class="eduContent" id="eduContent-4">
+						<li class="eduInfo" id='eduInfo-1'>
+							<a href="#"><span>[특별전 연계] </span>My Hero, 나한!</a>
+							<p class="date">2019-05-04~2019-05-25</p>
+							<p>소원을 들어주는 '나한'의 의미를 담아 나만의 소원책 만들기</p>
+							<dl class="userInfo">
+								<dt>대상</dt>
+								<dd>가족 20팀</dd>
+								<dt>참가비</dt>
+								<dd>무료</dd>
+							</dl>
+						</li>					
+						<li class="eduInfo" id='eduInfo-5'>
+							<a href="#"><span>[특별전 연계]</span>안중식과 친구들처럼 그리기 </a>
+							<p class="date">2019-04-20~2019-06-01</p>
+							<p>카드 미션을 통해 작품을 감상해 보고, 한 작품을 다른 작가들과 같이 그려보는 체험
+							</p>
+							<dl class="userInfo">
+								<dt>대상</dt>
+								<dd>가족 20팀</dd>
+								<dt>참가비</dt>
+								<dd>무료</dd>
+							</dl>
+						</li>					
+						<li class="eduInfo" id="eduInfo-6">
+							<a href="#"><span>[특별전 연계] </span>'창령사 터 오백나한'</a>
+							<p class="date">2019-05-27~2019-05-28</p>
+							<p>
+							특별전시 연계 특강으로 나한의 의미와 나한신앙에 대한 내용
+							</p>
+							<dl class="userInfo">
+								<dt>대상</dt>
+								<dd>인문학에 관심 있는 누구나</dd>
+								<dt>참가비</dt>
+								<dd>무료</dd>
+							</dl>
+						</li>				
+					</ul>
+				</div>
+				<div class="slidebtn">
+					<a href="#" class="prev">Prev</a>
+					<a href="#" class="next">Next</a>
+				</div>
+				<div class="slide_indicator"></div>
+				<a href="#" class="btnmore">교육 목록보기</a>
+			</section>
+			<!--//education 교육끝-->
+			<section id="play">
+				<h1>공연 · 행사</h1>
+				<ul class="innerplay">
+				<li class="playInfo" id='playInfo-1'>
+					<img src="img/event2.jpg" alt="반고흐">
+					<div class="text">
+						<span>공연중</span>
+						<a href="#"><h1>뮤지컬 &lt; 반고흐와 해바라기 소년 &gt; </h1></a>
+						<table>
+							<tr>
+								<th>기간</th>
+								<td>2019-04-24 ~ 2019-05-26</td>
+							</tr>		
+							<tr>
+								<th>장소</th>
+								<td>국립중앙박물관 극장 용</td>
+							</tr>			
+							<tr>
+								<th>시간</th>
+								<td>공연시간: 70분(인터미션 없음)</td>
+							</tr>					
+							<tr>
+								<th>입장료</th>
+								<td>상세정보 확인</td>
+							</tr>
+						</table>
+						<p>화가로서 인정받지 못해 힘든 시간을 보내는 '빈센트 반 고흐' <br>
+							그의 그림을 좋아했던 순수한 소년 '까미유 롤랭' <br>
+							그림으로 친구가 된 두 사람의 아름다운 우정이야기!
+						 </p>	
+						  <a href="#" class="btnmore">공연·행사 목록보기</a>		
+					</div>
+				</li>
+				<li class="playInfo" id='playInfo-2'>
+					<img src="img/event3.jpg" alt="공룡이살아있다">
+					<div class="text">
+						<span class="expect">예정공연</span>
+						<a href="#"><h1>뮤지컬 &lt; 공룡이 살아있다 &gt;</h1></a>
+						<table>
+							<tr>
+								<th>기간</th>
+								<td>2019-07-05 ~ 2019-09-01</td>
+							</tr>		
+							<tr>
+								<th>장소</th>
+								<td>기획전시실</td>
+							</tr>
+							<tr>
+								<th>공연 시간</th>
+								<td>80분(인터미션 없음)</td>
+							</tr>					
+							<tr>
+								<th>입장료</th>
+								<td>상세정보 확인</td>
+							</tr>
+						</table>
+						<p>“화석으로 발견된 공룡 타루가 사라졌다!” <br>
+						대한민국에서 세계 최초 티라노사우르스의 모자 화석이 온전한 형태로 발굴 되었다. <br>
+						나래 남매와 나래를 짝사랑하는 대박은 고봉의 학교 과제를 위해 국립중앙박물관을 찾게 되고... <br>
+						달빛이 조금씩 사라지는 개기월식이 시작되는 밤!
+						 </p>
+						 <a href="#" class="btnmore">공연·행사 목록보기</a>		
+					</div>		
+					</li>
+				<li class="playInfo" id='playInfo-3'>
+					<img src="img/event4.jpg" alt="세계문명탐험대">
+					<div class="text">
+						<span class="expect">예정공연</span>
+						<a href=""><h1>뮤지컬&lt;세계문명탐험대 ‘태양의 나라 이집트’&gt;</h1></a>
+						<table>
+							<tr>
+								<th>기간</th>
+								<td>2019-06-06 ~ 2019-06-29</td>
+							</tr>		
+							<tr>
+								<th>장소</th>
+								<td>국립중앙박물관 극장 용</td>
+							</tr>
+							<tr>
+								<th>공연 시간</th>
+								<td>80분(인터미션 없음)</td>
+							</tr>					
+							<tr>
+								<th>입장료</th>
+								<td>상세정보 확인</td>
+							</tr>
+						</table>
+						<p>
+						저 먼 바다 끝 숨겨진 신비의 대륙 아틀란티스에서 벌어지는 <br>
+						투명한 물결처럼 반짝반짝 빛나는 밝은 아이 타이미와 친구들의 <br>
+						환상적이고 스펙타클한 문명 어드벤쳐 판타지!
+						</p>			
+						 <a href="#" class="btnmore">공연·행사 목록보기</a>	
+					</div>
+				</li>
+				</ul>
+				<div class="slidebtn">
+					<a href="#" class="prev">Prev</a>
+					<a href="#" class="next">Next</a>
+				</div>
+				<div class="slide_indicator"></div>
+			</section>
+			<!--//event-->
+			<section id="item">
+			<h1>큐레이터 추천 소장품</h1>
+			<div class="mainItem">
+				<ul class="itemlist" id=itemlist-1>
+					<li>
+						<a href="#"><img src="img/ssu01287.jpg" alt="금목걸이"></a>
+						<p>경주 노서리 215번지에서 출토된 금목걸이</p>
+					</li>		
+					<li>
+						<a href="#"><img src="img/sinjungdo.jpg" alt="신중도"></a>
+						<p>신중도 - 불교를 수호하는 신들</p>
+					</li>		
+					<li>
+						<a href="#"><img src="img/dogam.jpg" alt="외규장각 의궤"></a>
+						<p>외규장각 의궤: 장렬왕후국장도감</p>
+					</li>				
+				</ul >
+				<ul class="itemlist" id=itemlist-2>
+					<li>
+						<a href="#"><img src="img/item1.jpg" alt="서직수 초상"></a>
+						<p>서직수 초상(徐直修 肖像), 이명기&#46;김홍도</p>
+					</li>		
+					<li>
+						<a href="#"><img src="img/item2.jpg" alt="경주 금제귀걸이"></a>
+						<p>경주 보문동합장분 출토 금제 귀걸이</p>
+					</li>		
+					<li>
+						<a href="#"><img src="img/item3.jpg" alt="영취사"></a>
+						<p>영취사 영산회상도(靈山會上圖), 혜식</p>
+					</li>				
+				</ul>
+				<ul class="itemlist" id=itemlist-3>
+					<li>
+						<a href="#"><img src="img/item4.jpg" alt="이채 초상"></a>
+						<p>이채 초상(李采 肖像)</p>
+					</li>		
+					<li>
+						<a href="#"><img src="img/item5.jpg" alt="사시신"></a>
+						<p>사시신(謝時臣)의〈여름산수〉와 <br>〈겨울산수〉</p>
+					</li>		
+					<li>
+						<a href="#"><img src="img/item6.jpg" alt="임한경명첩"></a>
+						<p>임한경명첩(臨漢鏡銘帖), 김정희</p>
+					</li>				
+				</ul>
+			</div>
+			<div class="slidebtn">
+				<a href="#" class="prev">Prev</a>
+				<a href="#" class="next">Next</a>
+			</div>
+			<div class="slide_indicator"></div>
+			<a href="#" class="btnmore">추천 소장품 목록 보기</a>
+			</section>
+<!--		//item 큐레이터 추천소장품 끝 -->
+		<footer>
+		    <a href="#" id="scrollTop"><i class="fas fa-arrow-circle-up"></i><br>TOP</a>    
+			<div class="innerfoot">
+                <div class="rollMenu">
+				    <div class="rollbox">
+				        <ul class="banner">
+				            <li>
+				                <a href="http://www.cfnmk.or.kr/user/main/main.do"><img src="img/16957.png" alt="용 극장 배너"></a>
+				            </li>
+				            <li>
+				                <a href="http://www.museumshop.or.kr/kor/main.do"><img src="img/16958.png" alt="국립박물관 문화상품 배너"></a>
+				            </li>
+				            <li>
+				                <a href="http://www.heritage.go.kr/heri/idx/index.do"><img src="img/16963.png" alt="국가문화유산 포털 배너"></a>
+				            </li>
+				            <li>
+				                <a href="https://artsandculture.google.com/partner/national-museum-of-korea"><img src="img/16961.png" alt="구글 문화협회 배너"></a>
+				            </li>
+				            <li>
+				                <a href="http://www.mmca.go.kr/main.do"><img src="img/298237.png" alt="국립현대미술관 배너"></a>
+				            </li>				            
+                            <li>
+				                <a href="https://www.museum.go.kr/site/child/home"><img src="img/foot_banner03.png" alt="어린이 박물관 배너"></a>
+				            </li>				            
+                            <li>
+				                <a href="http://masterpieces.asemus.museum/index.nhn"><img src="img/foot_banner11.png" alt="아시아 마스터피스 배너"></a>
+				            </li>                            
+                            <li>
+				                <a href="http://asemus.museum/"><img src="img/foot_banner12.png" alt="ASEMUS 배너"></a>
+				            </li>                            
+                            <li>
+				                <a href="http://www.much.go.kr/"><img src="img/foot_banner16.png" alt="대한민국역사박물관 배너"></a>
+				            </li>
+				        </ul>
+				    </div>
+				    <p class="control">
+                        <a href="#" class=prev><img src="img/bg_banner-prev.png" alt="이전"></a>
+				        <a href="#" class=next><img src="img/bg_banner-next.png" alt="다음"></a>
+				    </p>
+				</div>
+				<div class="btngo">
+					<a href="https://www.museum.go.kr/site/main/content/relics_management_system">문화유산표준관리시스템</a>
+					<a href="http://mentor.museum.go.kr/MentorSystemWeb/Login.aspx">청년멘토</a>		
+                    <a href="#" class="dwn">가이드북 다운로드</a>
+					<a href="#" class="dwn">관련사이트 바로가기</a>
+				</div>
+				<ul class="snsfoot">
+					<li>
+						<a href="https://twitter.com/The_NMK"><img src="img/twitter.png" alt="트위터"></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/NationalMuseumofKorea/"><img src="img/facebook.png" alt="페이스북"></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/nationalmuseumofkorea/"><img src="img/instagram.png" alt="인스타그램"></a>
+					</li>
+					<li>
+						<a href="http://www.youtube.com/koreanmuseum"><img src="img/youtube.png" alt="유튜브"></a>
+					</li>
+				</ul>
+				<div class="copyright">
+					<div class="copybtn">
+						<a href="https://www.museum.go.kr/site/main/content/privacy_policy" class="on">개인정보처리방침</a>
+						<a href="https://www.museum.go.kr/site/main/content/online_complaint">전자민원</a>
+						<a href="https://www.museum.go.kr/site/main/content/public_data_applications">공공데이터개방</a>
+						<a href="https://www.museum.go.kr/site/main/content/copyright_policy">저작권 정책</a>
+						<a href="https://www.museum.go.kr/site/main/content/clean_report_center">클린신고 센터</a>
+					</div>				
+					<div class="copytxt">
+						<address>04383 서울시 용산구 서빙고로 137(용산동6가 168-6)</address>
+						<p class="tel">대표전화 02.2077.9000</p>
+						<p>&copy;National Museum of Korea.</p>
+					</div>
+					<a href="http://www.kogl.or.kr/index.do" class="open"><img src="img/logo_open.png" alt="open로고"></a>
+				</div>
+			</div>
+    </footer>
+</body>
+</html>
